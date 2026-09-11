@@ -19,7 +19,7 @@ Gọi `call_openai` với temperature 0.0, 0.5, 1.0 và 1.5 dùng prompt
 
 ### Câu 1.2 — Chọn temperature cho sản phẩm
 **Bạn sẽ đặt temperature bao nhiêu cho chatbot hỗ trợ khách hàng, và tại sao?**
-> Khi để hỗ trợ khách hàng thì độ chích xác nên đặt lên hàng đầu, vì vậy temp nên để thấp (chẳng hạn 0.0-0.3)
+> Khi chatbot hỗ trợ khách hàng thì độ chích xác nên đặt lên hàng đầu, có tính nhất quán trong các câu trả lời vì vậy temperature nên để thấp (chẳng hạn khoảng 0.0-0.3)
 
 ### Câu 1.3 — Đánh đổi chi phí
 Kịch bản: 10.000 người dùng hoạt động mỗi ngày, mỗi người gọi API 3 lần,
